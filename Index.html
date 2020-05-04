@@ -273,8 +273,8 @@ main {
 </script>
 </head>
 <body translate="no">
- <audio src="mine.ogg" autoplay="" controls=""></audio>
- 
+<audio autoplay="autoplay" hidden="hidden"> <source src="mine.ogg" type="audio/mpeg""> </audio>
+      
 
 <canvas id="bg" height="608" width="1024"></canvas>
 <main>
@@ -294,19 +294,13 @@ document.addEventListener("DOMContentLoaded", () => {
   detik = document.getElementById("detik"),
   canvas = document.getElementById("bg"),
   loveemoji = [
-  "💞",
-  "💕",
+
+
   "💓",
-  "💗",
-  "💖",
-  "💘",
-  "💝",
-  "🧡",
-  "💛",
-  "💚",
+
   "💙",
   "💜",
-  "🤎",
+
   "🖤"];
 
 
