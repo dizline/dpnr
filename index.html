@@ -272,8 +272,10 @@ main {
   }
 </script>
 </head>
-<body translate="no">
-<audio autoplay> <source src="mine.ogg" type="audio/mpeg"> </audio>
+<body onload="init()">
+        <audio id="myAudio">
+          <source src="mine.ogg" type="audio/ogg">
+	</audio>
       
 
 <canvas id="bg" height="608" width="1024"></canvas>
